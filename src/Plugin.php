@@ -8,13 +8,14 @@ use yii\base\Event;
 
 /**
  * CraftCMS contact form to microsoft planner
+ * Version 1.0.1
  */
 
 
 
 class Plugin extends \craft\base\Plugin
 {
-    const VERSION = '1.0.4';
+    const VERSION = '1.0.1';
 
     public $hasCpSettings=true;
 
