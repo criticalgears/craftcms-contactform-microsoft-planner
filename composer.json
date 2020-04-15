@@ -1,0 +1,25 @@
+{
+  "name": "criticalgears/craftcms-contactform-microsoft-planner",
+  "description": "CraftCMS contact form to microsoft planner",
+  "version": "1.0.0",
+  "type": "craft-plugin",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "CriticalGears",
+      "homepage": "https://criticalgears.io"
+    }
+  ],
+  "require": {
+    "craftcms/cms": "^3.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "criticalgears\\contactformmicrosoftplanner\\": "src/"
+    }
+  },
+  "extra": {
+    "handle": "contactform-microsoft-planner",
+    "name": "Contact Form to microsoft planner"
+  }
+}

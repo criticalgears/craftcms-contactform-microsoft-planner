@@ -1,0 +1,19 @@
+{% import '_includes/forms' as forms %}
+
+
+{{ forms.textField({
+    label:'API Endpoint',
+    name:'apiURL',
+    value:settings.apiURL,
+    required:true
+}) }}
+
+{{ forms.textField({
+    label:'Form Name',
+    name:'formName',
+    value:settings.formName,
+    required:true
+}) }}
+
+
+
